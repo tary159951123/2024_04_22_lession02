@@ -1,3 +1,6 @@
 PyInputplus
 
+
+import pyinputplus as pypi
+
 modify(存檔用英文)
