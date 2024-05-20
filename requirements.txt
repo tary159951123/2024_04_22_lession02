@@ -6,3 +6,5 @@ import pyinputplus as pypi
 modify(存檔用英文)
 
 https://github.com/asweigart/pyinputplus
+
+ctrl + c 中斷程式
