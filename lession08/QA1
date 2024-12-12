@@ -1,0 +1,20 @@
+import math
+
+def calculate_approximation(n):
+    sum_series = 0
+    for i in range(2, n+1, 2):
+        sum_series += 1/i
+    
+    median_index = n // 2
+    median_value = 1/((1/2)*median_index)**2
+    
+    approximate_value = 1/n
+    
+    result = sum_series + median_value - approximate_value
+    
+    return result
+
+# 這裡可以調整n的值來計算
+n = 99999999999999999999999999999999999
+approximation = calculate_approximation(n)
+print(f"近似值為: {approximation}")
